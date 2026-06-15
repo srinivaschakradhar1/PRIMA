@@ -1,0 +1,130 @@
+id,equipment_code,plant_id,equipment_name,location_in_plant,equipment_type,manufacturer,model_number,installation_date,expected_life_days,criticality,status,created_at,updated_at
+eq-001,RMHP-001,plant-001,Wagon Tippler,Raw Material Handling Plant,rotating/hydraulic,ABB,ABB-XYZ-12,15-01-2018,1000,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-002,RMHP-002,plant-001,Stacker Reclaimer,Raw Material Handling Plant,rotating/mechanical,ABB,ABB-XYZ-13,16-01-2018,1050,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-003,RMHP-003,plant-001,Conveyor Belt System,Raw Material Handling Plant,mechanical/belt,ABB,ABB-XYZ-14,17-01-2018,950,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-004,RMHP-004,plant-001,Vibrating Feeder,Raw Material Handling Plant,vibrating/mechanical,ABB,ABB-XYZ-15,18-01-2018,800,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-005,RMHP-005,plant-001,Crusher (RMHP),Raw Material Handling Plant,rotating/impact,ABB,ABB-XYZ-16,19-01-2018,2000,LOW,FAILED,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-006,RMHP-006,plant-001,Screen (RMHP),Raw Material Handling Plant,vibrating/mechanical,ABB,ABB-XYZ-17,20-01-2018,1685,MEDIUM,FAILED,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-007,RMHP-007,plant-001,Hopper & Bunker,Raw Material Handling Plant,static/structural,ABB,ABB-XYZ-18,21-01-2018,1860,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-008,RMHP-008,plant-001,Dust Extraction System,Raw Material Handling Plant,rotating/filtration,ABB,ABB-XYZ-19,22-01-2018,2035,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-009,RMHP-009,plant-001,Weigh Feeder,Raw Material Handling Plant,instrumentation/mechanical,ABB,ABB-XYZ-20,23-01-2018,2210,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-010,COP-001,plant-001,Coke Oven Battery,Coke Oven Plant,thermal/structural,ABB,ABB-XYZ-21,24-01-2018,2385,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-011,COP-002,plant-001,Coal Charging Car,Coke Oven Plant,mobile/mechanical,ABB,ABB-XYZ-22,25-01-2018,2560,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-012,COP-003,plant-001,Coke Pushing Machine,Coke Oven Plant,mobile/hydraulic,ABB,ABB-XYZ-23,26-01-2018,2735,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-013,COP-004,plant-001,Coke Transfer Car,Coke Oven Plant,mobile/mechanical,ABB,ABB-XYZ-24,27-01-2018,2910,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-014,COP-005,plant-001,Coke Quenching Tower,Coke Oven Plant,static/spray,ABB,ABB-XYZ-25,28-01-2018,3085,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-015,COP-006,plant-001,Coke Screening Plant,Coke Oven Plant,vibrating/mechanical,ABB,ABB-XYZ-26,29-01-2018,3260,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-016,COP-007,plant-001,Gas Collecting Main,Coke Oven Plant,static/piping,ABB,ABB-XYZ-27,30-01-2018,3435,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-017,COP-008,plant-001,By-product Recovery System,Coke Oven Plant,process/chemical,ABB,ABB-XYZ-28,31-01-2018,3610,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-018,COP-009,plant-001,Exhauster/Blower (Coke Oven),Coke Oven Plant,rotating/centrifugal,ABB,ABB-XYZ-29,01-02-2018,3785,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-019,SNT-001,plant-001,Mixing Drum,Sinter Plant,rotating/mechanical,ABB,ABB-XYZ-30,02-02-2018,3960,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-020,SNT-002,plant-001,Sinter Machine,Sinter Plant,continuous/mechanical,ABB,ABB-XYZ-31,03-02-2018,4135,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-021,SNT-003,plant-001,Ignition Furnace,Sinter Plant,thermal,ABB,ABB-XYZ-32,04-02-2018,4310,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-022,SNT-004,plant-001,Crusher (Sinter),Sinter Plant,rotating/impact,ABB,ABB-XYZ-33,05-02-2018,4485,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-023,SNT-005,plant-001,Cooling System (Sinter),Sinter Plant,thermal/mechanical,ABB,ABB-XYZ-34,06-02-2018,4660,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-024,SNT-006,plant-001,Electrostatic Precipitator (Sinter),Sinter Plant,electrical/filtration,ABB,ABB-XYZ-35,07-02-2018,4835,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-025,SNT-007,plant-001,Dust Collector (Sinter),Sinter Plant,filtration,ABB,ABB-XYZ-36,08-02-2018,5010,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-026,SNT-008,plant-001,Conveyor (Sinter Plant),Sinter Plant,mechanical/belt,ABB,ABB-XYZ-37,09-02-2018,5185,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-027,SNT-009,plant-001,Fans and Blowers (Sinter),Sinter Plant,rotating/centrifugal,ABB,ABB-XYZ-38,10-02-2018,5360,MEDIUM,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-028,PLT-001,plant-001,Balling Disc,Pellet Plant,rotating/mechanical,ABB,ABB-XYZ-39,11-02-2018,5535,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-029,PLT-002,plant-001,Pellet Induration Furnace,Pellet Plant,thermal/continuous,ABB,ABB-XYZ-40,12-02-2018,5710,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-030,PLT-003,plant-001,Dryer (Pellet),Pellet Plant,thermal/rotating,ABB,ABB-XYZ-41,13-02-2018,5885,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-031,PLT-004,plant-001,Cooler (Pellet),Pellet Plant,thermal/mechanical,ABB,ABB-XYZ-42,14-02-2018,6060,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-032,PLT-005,plant-001,Screening Unit (Pellet),Pellet Plant,vibrating/mechanical,ABB,ABB-XYZ-43,15-02-2018,6235,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-033,PLT-006,plant-001,Grinding Mill (Pellet),Pellet Plant,rotating/mechanical,ABB,ABB-XYZ-44,16-02-2018,6410,LOW,FAILED,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-034,BF-001,plant-001,Blast Furnace Shell,Blast Furnace,static/thermal,ABB,ABB-XYZ-45,17-02-2018,6585,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-035,BF-002,plant-001,Bell-less Top Charging System,Blast Furnace,mechanical/hydraulic,ABB,ABB-XYZ-46,18-02-2018,6760,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-036,BF-003,plant-001,Hot Blast Stove,Blast Furnace,thermal/structural,ABB,ABB-XYZ-47,19-02-2018,6935,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-037,BF-004,plant-001,Pulverized Coal Injection (PCI) System,Blast Furnace,pneumatic/mechanical,ABB,ABB-XYZ-48,20-02-2018,7110,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-038,BF-005,plant-001,Cast House Equipment,Blast Furnace,mechanical/thermal,ABB,ABB-XYZ-49,21-02-2018,7285,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-039,BF-006,plant-001,Mud Gun,Blast Furnace,hydraulic/mechanical,ABB,ABB-XYZ-50,22-02-2018,7460,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-040,BF-007,plant-001,Taphole Drilling Machine,Blast Furnace,rotating/hydraulic,ABB,ABB-XYZ-51,23-02-2018,1000,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-041,BF-008,plant-001,Gas Cleaning Plant (BF),Blast Furnace,filtration/scrubbing,ABB,ABB-XYZ-52,24-02-2018,1050,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-042,BF-009,plant-001,Cooling System (BF),Blast Furnace,hydraulic/thermal,ABB,ABB-XYZ-53,25-02-2018,950,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-043,BF-010,plant-001,Slag Granulation Unit,Blast Furnace,hydraulic/mechanical,ABB,ABB-XYZ-54,26-02-2018,800,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-044,BOF-001,plant-001,LD Converter,Basic Oxygen Furnace,static/thermal,ABB,ABB-XYZ-55,27-02-2018,2000,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-045,BOF-002,plant-001,Oxygen Lance System,Basic Oxygen Furnace,mechanical/pneumatic,ABB,ABB-XYZ-56,28-02-2018,1685,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-046,BOF-003,plant-001,Converter Tilting Drive,Basic Oxygen Furnace,rotating/mechanical,ABB,ABB-XYZ-57,01-03-2018,1860,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-047,BOF-004,plant-001,Ladle (BOF),Basic Oxygen Furnace,static/thermal,ABB,ABB-XYZ-58,02-03-2018,2035,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-048,BOF-005,plant-001,Scrap Charging Crane,Basic Oxygen Furnace,rotating/hoist,ABB,ABB-XYZ-59,03-03-2018,2210,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-049,BOF-006,plant-001,Fume Extraction System (BOF),Basic Oxygen Furnace,rotating/filtration,ABB,ABB-XYZ-60,04-03-2018,2385,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-050,BOF-007,plant-001,Secondary Dedusting System,Basic Oxygen Furnace,filtration,ABB,ABB-XYZ-61,05-03-2018,2560,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-051,BOF-008,plant-001,Slag Handling System (BOF),Basic Oxygen Furnace,mechanical,ABB,ABB-XYZ-62,06-03-2018,2735,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-052,EAF-001,plant-001,Electric Arc Furnace,Electric Arc Furnace,electrical/thermal,ABB,ABB-XYZ-63,07-03-2018,2910,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-053,EAF-002,plant-001,Electrode Lifting System,Electric Arc Furnace,hydraulic/mechanical,ABB,ABB-XYZ-64,08-03-2018,3085,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-054,EAF-003,plant-001,EAF Transformer,Electric Arc Furnace,electrical/static,ABB,ABB-XYZ-65,09-03-2018,3260,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-055,EAF-004,plant-001,Furnace Roof Mechanism,Electric Arc Furnace,hydraulic/mechanical,ABB,ABB-XYZ-66,10-03-2018,3435,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-056,EAF-005,plant-001,Fume Extraction System (EAF),Electric Arc Furnace,rotating/filtration,ABB,ABB-XYZ-67,11-03-2018,3610,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-057,SM-001,plant-001,Ladle Furnace,Secondary Metallurgy,electrical/thermal,ABB,ABB-XYZ-68,12-03-2018,3785,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-058,SM-002,plant-001,Vacuum Degasser (VD/VOD),Secondary Metallurgy,vacuum/mechanical,ABB,ABB-XYZ-69,13-03-2018,3960,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-059,SM-003,plant-001,RH Degassing System,Secondary Metallurgy,vacuum/thermal,ABB,ABB-XYZ-70,14-03-2018,4135,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-060,SM-004,plant-001,Argon Stirring System,Secondary Metallurgy,pneumatic,ABB,ABB-XYZ-71,15-03-2018,4310,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-061,SM-005,plant-001,Alloy Addition System,Secondary Metallurgy,mechanical/conveying,ABB,ABB-XYZ-72,16-03-2018,4485,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-062,SM-006,plant-001,Temperature Measurement System,Secondary Metallurgy,instrumentation,ABB,ABB-XYZ-73,17-03-2018,4660,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-063,CCM-001,plant-001,Ladle Turret,Continuous Casting Machine,rotating/hydraulic,ABB,ABB-XYZ-74,18-03-2018,4835,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-064,CCM-002,plant-001,Tundish,Continuous Casting Machine,static/thermal,ABB,ABB-XYZ-75,19-03-2018,5010,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-065,CCM-003,plant-001,Mold Oscillation System,Continuous Casting Machine,mechanical/hydraulic,ABB,ABB-XYZ-76,20-03-2018,5185,LOW,FAILED,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-066,CCM-004,plant-001,Strand Cooling System,Continuous Casting Machine,hydraulic/spray,ABB,ABB-XYZ-77,21-03-2018,5360,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-067,CCM-005,plant-001,Withdrawal Unit,Continuous Casting Machine,rotating/mechanical,ABB,ABB-XYZ-78,22-03-2018,5535,LOW,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-068,CCM-006,plant-001,Cutting Machine (CCM),Continuous Casting Machine,mechanical/torch,ABB,ABB-XYZ-79,23-03-2018,5710,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-069,CCM-007,plant-001,Roller Table,Continuous Casting Machine,rotating/mechanical,ABB,ABB-XYZ-80,24-03-2018,5885,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-070,CCM-008,plant-001,Slab Handling System,Continuous Casting Machine,mechanical/crane,ABB,ABB-XYZ-81,25-03-2018,6060,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-071,RM-001,plant-001,Reheating Furnace,Rolling Mills - Hot Strip Mill,thermal,ABB,ABB-XYZ-82,26-03-2018,6235,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-072,RM-002,plant-001,Roughing Mill,Rolling Mills - Hot Strip Mill,rotating/mechanical,ABB,ABB-XYZ-83,27-03-2018,6410,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-073,RM-003,plant-001,Finishing Mill,Rolling Mills - Hot Strip Mill,rotating/mechanical,ABB,ABB-XYZ-84,28-03-2018,6585,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-074,RM-004,plant-001,Run-out Table,Rolling Mills - Hot Strip Mill,rotating/mechanical,ABB,ABB-XYZ-85,29-03-2018,6760,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-075,RM-005,plant-001,Coiler,Rolling Mills - Hot Strip Mill,rotating/mechanical,ABB,ABB-XYZ-86,30-03-2018,6935,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-076,RM-006,plant-001,Plate Rolling Stand,Rolling Mills - Plate Mill,rotating/mechanical,ABB,ABB-XYZ-87,31-03-2018,7110,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-077,RM-007,plant-001,Leveler (Plate Mill),Rolling Mills - Plate Mill,mechanical,ABB,ABB-XYZ-88,01-04-2018,7285,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-078,RM-008,plant-001,Shear (Plate Mill),Rolling Mills - Plate Mill,hydraulic/mechanical,ABB,ABB-XYZ-89,02-04-2018,7460,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-079,RM-009,plant-001,Rolling Stand (Bar & Rod Mill),Rolling Mills - Bar & Rod Mill,rotating/mechanical,ABB,ABB-XYZ-90,03-04-2018,1000,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-080,RM-010,plant-001,Looper (Bar & Rod Mill),Rolling Mills - Bar & Rod Mill,mechanical/pneumatic,ABB,ABB-XYZ-91,04-04-2018,1050,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-081,RM-011,plant-001,Cooling Bed,Rolling Mills - Bar & Rod Mill,mechanical,ABB,ABB-XYZ-92,05-04-2018,950,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-082,RM-012,plant-001,Bundling Machine,Rolling Mills - Bar & Rod Mill,mechanical/hydraulic,ABB,ABB-XYZ-93,06-04-2018,800,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-083,RM-013,plant-001,Wire Rod Block,Rolling Mills - Wire Rod Mill,rotating/high-speed,ABB,ABB-XYZ-94,07-04-2018,2000,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-084,RM-014,plant-001,Coil Forming System,Rolling Mills - Wire Rod Mill,mechanical/rotating,ABB,ABB-XYZ-95,08-04-2018,1685,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-085,FL-001,plant-001,Pickling Line,Finishing Lines,chemical/mechanical,ABB,ABB-XYZ-96,09-04-2018,1860,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-086,FL-002,plant-001,Galvanizing Line,Finishing Lines,thermal/chemical,ABB,ABB-XYZ-97,10-04-2018,2035,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-087,FL-003,plant-001,Color Coating Line,Finishing Lines,mechanical/thermal,ABB,ABB-XYZ-98,11-04-2018,2210,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-088,FL-004,plant-001,Slitting Line,Finishing Lines,mechanical,ABB,ABB-XYZ-99,12-04-2018,2385,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-089,FL-005,plant-001,Cut-to-Length Line,Finishing Lines,mechanical/hydraulic,ABB,ABB-XYZ-100,13-04-2018,2560,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-090,FL-006,plant-001,Skin Pass Mill,Finishing Lines,rotating/mechanical,ABB,ABB-XYZ-101,14-04-2018,2735,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-091,FL-007,plant-001,Tension Leveler,Finishing Lines,mechanical,ABB,ABB-XYZ-102,15-04-2018,2910,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-092,UTL-001,plant-001,Boiler,Utility - Power Plant,thermal/static,ABB,ABB-XYZ-103,16-04-2018,3085,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-093,UTL-002,plant-001,Steam Turbine,Utility - Power Plant,rotating/thermal,ABB,ABB-XYZ-104,17-04-2018,3260,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-094,UTL-003,plant-001,Generator,Utility - Power Plant,electrical/rotating,ABB,ABB-XYZ-105,18-04-2018,3435,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-095,UTL-004,plant-001,Cooling Tower (Power Plant),Utility - Power Plant,mechanical/thermal,ABB,ABB-XYZ-106,19-04-2018,3610,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-096,UTL-005,plant-001,Oxygen Plant (ASU),Utility - Air Separation Unit,cryogenic/process,ABB,ABB-XYZ-107,20-04-2018,3785,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-097,UTL-006,plant-001,Nitrogen Plant (ASU),Utility - Air Separation Unit,cryogenic/process,ABB,ABB-XYZ-108,21-04-2018,3960,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-098,UTL-007,plant-001,Compressor (ASU),Utility - Air Separation Unit,rotating/reciprocating,ABB,ABB-XYZ-109,22-04-2018,4135,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-099,UTL-008,plant-001,Clarifier,Utility - Water Systems,mechanical/static,ABB,ABB-XYZ-110,23-04-2018,4310,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-100,UTL-009,plant-001,Cooling Tower (Water Systems),Utility - Water Systems,mechanical/thermal,ABB,ABB-XYZ-111,24-04-2018,4485,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-101,UTL-010,plant-001,Pump (Water Systems),Utility - Water Systems,rotating/centrifugal,ABB,ABB-XYZ-112,25-04-2018,4660,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-102,UTL-011,plant-001,Filtration System (Water),Utility - Water Systems,mechanical/filtration,ABB,ABB-XYZ-113,26-04-2018,4835,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-103,UTL-012,plant-001,Air Compressor (Compressed Air),Utility - Compressed Air Systems,rotating/reciprocating,ABB,ABB-XYZ-114,27-04-2018,5010,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-104,UTL-013,plant-001,Air Dryer,Utility - Compressed Air Systems,thermal/process,ABB,ABB-XYZ-115,28-04-2018,5185,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-105,UTL-014,plant-001,Air Receiver,Utility - Compressed Air Systems,static/pressure vessel,ABB,ABB-XYZ-116,29-04-2018,5360,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-106,MH-001,plant-001,Overhead Crane,Material Handling Equipment,rotating/hoist,ABB,ABB-XYZ-117,30-04-2018,5535,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-107,MH-002,plant-001,EOT Crane,Material Handling Equipment,rotating/hoist,ABB,ABB-XYZ-118,01-05-2018,5710,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-108,MH-003,plant-001,Gantry Crane,Material Handling Equipment,rotating/hoist,ABB,ABB-XYZ-119,02-05-2018,5885,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-109,MH-004,plant-001,Ladle Crane,Material Handling Equipment,rotating/hoist,ABB,ABB-XYZ-120,03-05-2018,6060,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-110,MH-005,plant-001,Transfer Car,Material Handling Equipment,mobile/mechanical,ABB,ABB-XYZ-121,04-05-2018,6235,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-111,MH-006,plant-001,Forklift,Material Handling Equipment,mobile/hydraulic,ABB,ABB-XYZ-122,05-05-2018,6410,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-112,MH-007,plant-001,Excavator,Material Handling Equipment,mobile/hydraulic,ABB,ABB-XYZ-123,06-05-2018,6585,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-113,MH-008,plant-001,Mobile Crane,Material Handling Equipment,mobile/hydraulic,ABB,ABB-XYZ-124,07-05-2018,6760,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-114,ENV-001,plant-001,Bag Filter,Environmental Control Systems,filtration,ABB,ABB-XYZ-125,08-05-2018,6935,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-115,ENV-002,plant-001,Electrostatic Precipitator (ENV),Environmental Control Systems,electrical/filtration,ABB,ABB-XYZ-126,09-05-2018,7110,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-116,ENV-003,plant-001,Wet Scrubber,Environmental Control Systems,scrubbing/hydraulic,ABB,ABB-XYZ-127,10-05-2018,7285,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-117,ENV-004,plant-001,Dust Suppression System,Environmental Control Systems,hydraulic/spray,ABB,ABB-XYZ-128,11-05-2018,7460,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-118,ENV-005,plant-001,Wastewater Treatment Plant,Environmental Control Systems,process/chemical,ABB,ABB-XYZ-129,12-05-2018,4835,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-119,ENV-006,plant-001,Gas Cleaning Plant (ENV),Environmental Control Systems,filtration/scrubbing,ABB,ABB-XYZ-130,13-05-2018,5010,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-120,ENV-007,plant-001,Continuous Emission Monitoring System (CEMS),Environmental Control Systems,instrumentation,ABB,ABB-XYZ-131,14-05-2018,5185,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-121,CRE-001,plant-001,Centrifugal Pump (Critical),Critical Rotating Equipment,rotating/centrifugal,ABB,ABB-XYZ-132,15-05-2018,5360,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-122,CRE-002,plant-001,Reciprocating Pump (Critical),Critical Rotating Equipment,rotating/reciprocating,ABB,ABB-XYZ-133,16-05-2018,5535,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-123,CRE-003,plant-001,Compressor (Critical),Critical Rotating Equipment,rotating/reciprocating-centrifugal,ABB,ABB-XYZ-134,17-05-2018,5710,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-124,CRE-004,plant-001,Fan (Critical),Critical Rotating Equipment,rotating/axial-centrifugal,ABB,ABB-XYZ-135,18-05-2018,5885,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-125,CRE-005,plant-001,Blower (Critical),Critical Rotating Equipment,rotating/centrifugal,ABB,ABB-XYZ-136,19-05-2018,6060,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-126,CRE-006,plant-001,Gearbox (Critical),Critical Rotating Equipment,mechanical/rotating,ABB,ABB-XYZ-137,20-05-2018,6235,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-127,CRE-007,plant-001,Motor (Critical),Critical Rotating Equipment,electrical/rotating,ABB,ABB-XYZ-138,21-05-2018,6410,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-128,CRE-008,plant-001,Turbine (Critical),Critical Rotating Equipment,rotating/thermal,ABB,ABB-XYZ-139,22-05-2018,6585,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
+eq-129,CRE-009,plant-001,Cooling Tower Fan (Critical),Critical Rotating Equipment,rotating/mechanical,ABB,ABB-XYZ-140,23-05-2018,6760,HIGH,UP,2025-01-01T00:00:00,2025-01-01T00:00:00
