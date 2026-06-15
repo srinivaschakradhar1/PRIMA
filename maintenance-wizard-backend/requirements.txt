@@ -1,0 +1,31 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-multipart==0.0.20
+apscheduler==3.11.0
+
+# --- Agents (LangGraph orchestrator for /agent/chat, _04_Agent.md) --------
+# Required: the conversation + multi-step diagnosis agents are built as
+# LangGraph state graphs. langchain-core is pulled in transitively.
+langgraph>=1.0,<2.0
+
+# --- RAG pipeline ---------------------------------------------------------
+# numpy powers vector search (and the deterministic offline fallback) and is
+# always required. python-dotenv loads .env into the environment on startup.
+numpy>=1.26,<2.0
+python-dotenv>=1.0.0
+
+# Full GPT-4o RAG stack. The pipeline auto-detects each at runtime and degrades
+# gracefully if any is missing, but they are installed for the complete stack:
+#   * openai                -> GPT-4o agents + text-embedding-3-large
+#   * faiss-cpu             -> accelerated vector search (numpy fallback otherwise)
+#   * pymupdf               -> PDF parsing with preserved offsets
+#   * tiktoken              -> accurate token counting for chunk sizing
+#   * sentence-transformers -> cross-encoder reranking (bge-reranker-large)
+#   * python-docx           -> Word (.docx) text extraction (offsets preserved)
+openai>=1.30.0
+faiss-cpu>=1.8.0
+pymupdf>=1.24.0
+tiktoken>=0.7.0
+sentence-transformers>=3.0.0
+python-docx>=1.1.0
